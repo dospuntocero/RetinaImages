@@ -1,0 +1,19 @@
+{
+    "name": "silverstripe/retina-images",
+    "description": "Retina images for amazing responsiveness in silverstripe 3!",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "responsive", "images", "@2x"],
+    "license": "BSD-3-Clause",
+    "authors": [
+    {
+        "name": "Dospuntocero",
+        "email": "fa@dospuntocero.cl"
+    }
+    ],
+    "require":
+    {
+        "silverstripe/framework": "3.*",
+        "silverstripe/cms": "3.*"
+    },
+    "version": "1.0.0"    
+}
