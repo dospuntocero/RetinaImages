@@ -2,7 +2,7 @@
     "name": "silverstripe/retina-images",
     "description": "Retina images for amazing responsiveness in silverstripe 3!",
     "type": "silverstripe-module",
-    "keywords": ["silverstripe", "responsive", "images", "@2x"],
+    "keywords": ["silverstripe", "responsive", "images"],
     "license": "BSD-3-Clause",
     "authors": [
     {
