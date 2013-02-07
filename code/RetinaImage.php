@@ -29,7 +29,7 @@ class ResponsiveImage extends DataExtension {
 	}
 
 	public function generateSetHeight(GD $gd, $height){
-    return $this->generateResponsive("resizeByHeight", $gd, null, $height)
+    return $this->generateResponsive("resizeByHeight", $gd, null, $height);
 	}
 
 	public function generateSetSize(GD $gd, $width, $height) {
@@ -48,12 +48,12 @@ class RetinaImage_Extension extends DataExtension {
   }
 
   public function getRetina(){
-    return Cookie::get('isRetina') >= 2 ? "@2X" : "";
+    return Cookie::get('isRetina') >= 2 ? "@2x" : "";
   }
 
   public function contentcontrollerInit($controller) {
     Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.min.js");
     Requirements::javascript(THIRDPARTY_DIR."/jquery-cookie/jquery.cookie.js");
-    Requirements::javascript("retinaImages/js/retina.js");
+    Requirements::javascript("RetinaImages/js/retina.js");
   }
 }
