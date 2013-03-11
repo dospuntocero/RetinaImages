@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/retina-images",
+    "name": "dospuntocero/retina-images",
     "description": "Retina images for amazing responsiveness in silverstripe 3!",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "responsive", "images"],
